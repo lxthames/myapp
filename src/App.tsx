@@ -1,14 +1,13 @@
 import React from 'react';
-
-import { PersonScore } from './PersonScore';
 import './App.css';
+import { Alert } from './Alert';
 
 function App() {
   return (
-    <div className="App">
-      <div className="App">
-        <PersonScore />
-      </div>
+    <div className="container">
+      <Alert heading="Success" closable>
+        Everything is really good!
+      </Alert>
     </div>
   );
 }
